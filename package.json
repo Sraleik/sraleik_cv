@@ -1,7 +1,7 @@
 {
-  "name": "php_blank",
+  "name": "sraleik_cv",
   "version": "1.0.0",
-  "description": "php bootstrap",
+  "description": "cv de sraleik",
   "scripts": {
     "watch": "gulp watch"
   },
