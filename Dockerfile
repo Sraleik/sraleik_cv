@@ -24,7 +24,7 @@ COPY . /app/
 
 ##### INSTALL DEPENDENCY OF PROJECT
 
-RUN php composer --no-interaction
+RUN composer update --no-interaction
 RUN npm install
 
 ##### ADD Script that lauch apache
@@ -33,7 +33,7 @@ COPY run.sh /run.sh
 
 ##### ADD Test script of this docker
 
-COPY blank_test.sh /test/blank_test.sh
+COPY docker_test.sh /test/docker_test.sh
 
 
 EXPOSE 80

@@ -13,15 +13,16 @@ then
     git pull origin $GIT_COMMIT \
     && git checkout $GIT_COMMIT
 
-    #TODO: to remove?
-    php composer.phar update
-    npm install
 fi
 
 
 
 if [ ${GIT_COMMIT} = 'dev' ]
 then
+    #TODO: to remove?
+    php composer.phar update
+    npm install
+
     source /etc/apache2/envvars
     exec apache2 -D FOREGROUND &
     npm run watch
