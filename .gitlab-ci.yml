@@ -9,16 +9,12 @@ stages:
   - release
 
 variables:
-  CONTAINER_TEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-$CI_BUILD_REF
+  CONTAINER_TEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-${CI_BUILD_REF:0:6}
   CONTAINER_LATEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-latest
 
 before_script:
   - docker -v
   - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
-  - echo $CI_REGISTRY_IMAGE
-  - echo $CI_PROJECT_NAME
-  - echo $CI_BUILD_REF_NAME
-  - echo $CI_BUILD_REF
   - echo $CONTAINER_TEST_IMAGE
   - echo $CONTAINER_LATEST_IMAGE
 
