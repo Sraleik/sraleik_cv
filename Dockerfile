@@ -4,9 +4,7 @@ RUN rm -rf /app/* /app/.git*
 
 WORKDIR /app
 
-RUN git init && git remote add origin git@gitlab.com:Sraleik/sraleik_cv.git && git fetch origin master
-
-RUN git checkout master
+COPY . /app/
 RUN php composer.phar update --no-interaction
 RUN npm install
 
