@@ -1,0 +1,35 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+stages:
+  - build
+  - test
+  - release
+
+before_script:
+  - docker -v
+  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+
+build:
+  stage: build
+  script:
+    - docker build -t registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF .
+    - docker push registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF
+  when: manual
+
+test:
+  stage: test
+  script:
+    - docker pull registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF
+    - docker run registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF /test/docker_test.sh
+  when: manual
+
+release:
+  stage: release
+  script:
+    - docker pull registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF
+    - docker tag registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF registry.gitlab.com/sraleik/sraleik_cv:16.04-simple
+    - docker push registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:latest
+  when: manual

@@ -8,7 +8,8 @@ COPY . /app/
 RUN php composer.phar update --no-interaction
 RUN npm install
 
-ADD run.sh /run.sh
+COPY run.sh /run.sh
+COPY blank_test.sh /test/blank_test.sh
 
 EXPOSE 80
 
