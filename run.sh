@@ -12,10 +12,12 @@ if [ ${GIT_COMMIT} != 'dev' ]
 then
     git pull origin $GIT_COMMIT \
     && git checkout $GIT_COMMIT
+
+    #TODO: to remove?
+    php composer.phar update
+    npm install
 fi
 
-php composer.phar update
-npm install
 
 
 if [ ${GIT_COMMIT} = 'dev' ]

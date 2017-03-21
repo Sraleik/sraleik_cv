@@ -5,6 +5,8 @@ RUN rm -rf /app/* /app/.git*
 WORKDIR /app
 
 COPY . /app/
+
+#TODO: install composer in the docker and use it
 RUN php composer.phar update --no-interaction
 RUN npm install
 
