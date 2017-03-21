@@ -8,28 +8,36 @@ stages:
   - test
   - release
 
+variables:
+  CONTAINER_TEST_IMAGE: $CI_REGISTRY_IMAGE/$CI_PROJECT_NAME_$CI_BUILD_REF_NAME:$CI_BUILD_REF
+  CONTAINER_LATEST_IMAGE: $CI_REGISTRY_IMAGE/$CI_PROJECT_NAME_$CI_BUILD_REF_NAME:latest
+
 before_script:
   - docker -v
   - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
   - echo $CI_REGISTRY_IMAGE
+  - echo $CI_PROJECT_NAME
+  - echo $CI_BUILD_REF_NAME
+  - echo $CI_BUILD_REF
+
 build:
   stage: build
   script:
-    - docker build -t registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF .
-    - docker push registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF
+    - docker build -t $CONTAINER_TEST_IMAGE .
+    - docker push $CONTAINER_TEST_IMAGE
   when: manual
 
 test:
   stage: test
   script:
-    - docker pull registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF
-    - docker run registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF /test/docker_test.sh
+    - docker pull $CONTAINER_TEST_IMAGE
+    - docker run $CONTAINER_TEST_IMAGE /test/docker_test.sh
   when: manual
 
 release:
   stage: release
   script:
-    - docker pull registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF
-    - docker tag registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:$CI_BUILD_REF registry.gitlab.com/sraleik/sraleik_cv:16.04-simple
+    - docker pull $CONTAINER_TEST_IMAGE
+    - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_LATEST_IMAGE
     - docker push registry.gitlab.com/sraleik/sraleik_cv_$CI_BUILD_REF_NAME:latest
   when: manual
