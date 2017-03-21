@@ -70,7 +70,7 @@
 		<div id="home" class="cvitae-section slider fullSlider">
 			<div class="slider-overlay cvitae-typed-slider">
 				<div class="slider-content">
-					<p class="slider-title">Hi</p>
+					<p class="slider-title">Hi,</p>
 					<p class="second-line"><span class="typed-text"></span></p>
 				</div>
 				<div class="mouse-icon"><a href="#about"><span class="wheel"></span></a></div>
