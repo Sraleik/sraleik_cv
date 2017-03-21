@@ -5,6 +5,8 @@ COPY . /usr/local/apache2/htdocs/
 
 COPY docker_test.sh /test/docker_test.sh
 
+RUN sed -i "s/AllowOverride None/AllowOverride All/2" /usr/local/apache2/conf/httpd.conf
+
 EXPOSE 80
 
 ENTRYPOINT ["bash"]
