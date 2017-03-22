@@ -79,9 +79,9 @@
 				<div class="cvitae-section-content">
 					<div class="content-left short-bio">
 						<div class="pic">
-							<img class="img-responsive" src="assets/img/bio/12.jpg" alt="Bio Pic">
+							<img class="img-responsive" src="assets/img/bio/12.jpg" alt="Photo Id">
 						</div>
-						<p>Advanced web developer with 12 years of experience in structuring, developing &amp; implementing interactive website with the best use of technology &amp; SEO to drive traffic.</p>
+						<p>Développeur junior avec 2 ans d'expérience dans le web. <br /> Principale technologie utlisé : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
 					</div>
 					<div class="content-right about">
 						<h3 class="cvitae-section-title">Présentation</h3>
@@ -93,9 +93,9 @@
 					</div>
 					<div class="links">
 						<a download="dummy-resume.txt" onclick="Materialize.toast('Cv Téléchargé Avec Succes', 4000, 'rounded')" href="dummy-resume.txt" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Télécharger ce Cv"><span class="ti-download"></span>Télécharger le Cv</a>
-						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Email this Resume"><span class="ti-email"></span>Email this Resume</a>
-						<a href="https://github.com/Sraleik" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Fork me on github"><span class="ti-github"></span>Github</a>
-						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on LinkedIn"><span class="ti-linkedin"></span>LinkedIn Profile</a>
+						<a href="mailto:nicolas.rotier@gmail.com" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Envoyer un email"><span class="ti-email"></span>Envoyer un email</a>
+						<a href="https://github.com/Sraleik" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Me suivre sur Github"><span class="ti-github"></span>Github</a>
+						<a href="https://www.linkedin.com/in/nicolas-rotier/" class="tooltipped" data-position="left" data-delay="50" data-tooltip="me suivre sur LinkedIn"><span class="ti-linkedin"></span>Profile LinkedIn</a>
 					</div>
 				</div>
 			</div>
