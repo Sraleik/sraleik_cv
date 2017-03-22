@@ -21,12 +21,12 @@ jQuery(document).ready(function() {
 
 		jQuery(".typed-text").typed({
 			backDelay: 1500,
-			backSpeed: 20,
+			backSpeed: 15,
 			contentType: 'text',
 			loop: true,
 			loopCount: true,
 			startDelay: 1000,
-			strings: ["I AM NICOLAS ROTIER", "I AM A DEVELOPER", "and also . . . ", "A MAGICIAN  :) "],
+			strings: ["I'm Nicolas Rotier", "I am a developer", "and also . . . ", "a MAGICIAN  :) "],
 			typeSpeed: 50
 		});
 
