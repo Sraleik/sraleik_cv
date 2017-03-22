@@ -108,14 +108,20 @@
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Compétences</h3>
 						<ul class="hi-lights">
-							<li>Application Development</li>
-							<li>Service-Oriented Architecture</li>
-							<li>Enterprise Implementations </li>
-							<li>Software Development Lifecycle</li>
+							<li>Développement d'application web</li>
+							<li>Déploiement d'application web</li>
+							<li>Construction d'environement d'application</li>
 						</ul>
 					</div>
 					<div class="content-right">
 						<div class="progress-bar-container">
+						<div class="progress">
+								<h3 class="progress-title">GNU/Linux</h3>
+								<div class="progress-bar" data-progress="91">
+									<span class="bar"></span>
+									<span class="text">91</span>
+								</div>
+							</div>
 							<div class="progress">
 								<h3 class="progress-title">Ruby&nbsp;on&nbsp;Rail</h3>
 								<div class="progress-bar" data-progress="80">
@@ -180,7 +186,7 @@
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">Google-foo</h3>
+								<h3 class="progress-title">Google-fu</h3>
 								<div class="progress-bar" data-progress="94">
 									<span class="bar"></span>
 									<span class="text">94</span>
