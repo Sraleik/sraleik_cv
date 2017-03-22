@@ -397,36 +397,6 @@
 		</div>
 		<!-- CVitae Expérience -->
 
-		<div id="blog" class="cvitae-section cvitae-blog">
-			<div class="cvitae-container">
-				<div class="cvitae-section-content">
-					<div class="content-left">
-						<h3 class="cvitae-section-title">Blog</h3>
-						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
-						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
-						<a href="#" class="view-all">View all</a>
-					</div>
-					<div class="content-right">
-						<div class="blog-container">
-							<div class="post">
-								<div class="thumb"><a href="blog-single.html" target="_blank"><img src="assets/img/blog/1.jpg" alt="Blog 1"></a></div>
-								<h3 class="title"><a href="blog-single.html" target="_blank">How To Install Wordpress Theme - Step By Step</a></h3>
-							</div>
-							<div class="post">
-								<div class="thumb"><a href="blog-single.html" target="_blank"><img src="assets/img/blog/2.jpg" alt="Blog 2"></a></div>
-								<h3 class="title"><a href="blog-single.html" target="_blank">How To Become A Successful Author</a></h3>
-							</div>
-							<div class="post">
-								<div class="thumb"><a href="blog-single.html" target="_blank"><img src="assets/img/blog/3.jpg" alt="Blog 3"></a></div>
-								<h3 class="title"><a href="blog-single.html" target="_blank">Its A Pro Thing To Have An Online Resume</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- CVitae Blog -->
-
 		<div id="clients" class="cvitae-section cvitae-clients">
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
