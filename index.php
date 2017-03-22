@@ -32,14 +32,12 @@
 		<div class="cvitae-menu-wrapper">
 			<nav class="cvitae-main-nav scroll">
 				<ul>
-					<li class="waves-effect waves-cvitae"><a href="#about">About</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#skills">Skills</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#education">Education</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#skills">Compétence</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="cvitae-home waves-effect"><a href="#home">Nicolas Rotier</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#testimonial">Testimony</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#experience">Experience</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#blog">Blog</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -54,13 +52,11 @@
 			<nav class="cvitae-mobile-nav scroll">
 				<ul>
 					<li class="waves-effect waves-cvitae"><a href="#home">Home</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#about">About</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#skills">Skills</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#education">Education</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#skills">Compétence</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#testimonial">Testimony</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#experience">Experience</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#blog">Blog</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -88,31 +84,29 @@
 						<p>Advanced web developer with 12 years of experience in structuring, developing &amp; implementing interactive website with the best use of technology &amp; SEO to drive traffic.</p>
 					</div>
 					<div class="content-right about">
-						<h3 class="cvitae-section-title">About Me</h3>
-						<p class="info"><span class="field-title">Full Name</span> <span class="field-separator">:</span> <span class="field-value">PAUL HENDRIX JOHNSON</span></p>
-						<p class="info"><span class="field-title">Address</span> <span class="field-separator">:</span> <span class="field-value">1724 Coolidge Street, SYRACUSE, New York</span></p>
-						<p class="info"><span class="field-title">Zip</span> <span class="field-separator">:</span> <span class="field-value">13251</span></p>
-						<p class="info"><span class="field-title">Phone</span> <span class="field-separator">:</span> <span class="field-value">406-873-8531, 406-873-8532</span></p>
-						<p class="info"><span class="field-title">Email</span> <span class="field-separator">:</span> <span class="field-value">poke@yourdomain.me</span></p>
+						<h3 class="cvitae-section-title">Présentation</h3>
+						<p class="info"><span class="field-title">Identité</span> <span class="field-separator">:</span> <span class="field-value">Nicolas Rotier</span></p>
+						<p class="info"><span class="field-title">Address</span> <span class="field-separator">:</span> <span class="field-value">3 rue de Jeanne d'Arc, Nantes</span></p>
+						<p class="info"><span class="field-title">Code&nbsp;Postal</span> <span class="field-separator">:</span> <span class="field-value">44000</span></p>
+						<p class="info"><span class="field-title">Téléphone</span> <span class="field-separator">:</span> <span class="field-value">+33632432990</span></p>
+						<p class="info"><span class="field-title">Email</span> <span class="field-separator">:</span> <span class="field-value">nicolas.rotier@gmail.com</span></p>
 					</div>
 					<div class="links">
-						<a download="dummy-resume.txt" onclick="Materialize.toast('Resume Download Successfully', 4000, 'rounded')" href="dummy-resume.txt" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Download this Resume"><span class="ti-download"></span>Download Resume</a>
+						<a download="dummy-resume.txt" onclick="Materialize.toast('Cv Téléchargé Avec Succes', 4000, 'rounded')" href="dummy-resume.txt" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Télécharger ce Cv"><span class="ti-download"></span>Télécharger le Cv</a>
 						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Email this Resume"><span class="ti-email"></span>Email this Resume</a>
-						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Fork me on github"><span class="ti-github"></span>Github</a>
+						<a href="https://github.com/Sraleik" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Fork me on github"><span class="ti-github"></span>Github</a>
 						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on LinkedIn"><span class="ti-linkedin"></span>LinkedIn Profile</a>
-						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on Twitter"><span class="ti-twitter"></span>Twitter Profile</a>
-						<a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on Facebook"><span class="ti-facebook"></span>Facebook Profile</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- CVitae About -->
+		<!-- CVitae Présentation -->
 
 		<div id="skills" class="cvitae-section cvitae-skills">
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Skills</h3>
+						<h3 class="cvitae-section-title">Compétence</h3>
 						<ul class="hi-lights">
 							<li>Application Development</li>
 							<li>Service-Oriented Architecture</li>
@@ -169,7 +163,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- CVitae Skills -->
+		<!-- CVitae Compétence -->
 
 		<div id="achievement" class="cvitae-section cvitae-achievement">
 			<div class="cvitae-container">
@@ -246,7 +240,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- CVitae Education -->
+		<!-- CVitae Formation -->
 
 		<div id="portfolio" class="cvitae-section cvitae-portfolio">
 			<div class="cvitae-container">
@@ -338,7 +332,7 @@
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Experience</h3>
+						<h3 class="cvitae-section-title">Expérience</h3>
 						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
 						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
 					</div>
@@ -367,7 +361,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- CVitae Experience -->
+		<!-- CVitae Expérience -->
 
 		<div id="blog" class="cvitae-section cvitae-blog">
 			<div class="cvitae-container">
@@ -438,7 +432,7 @@
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Contact Me</h3>
+						<h3 class="cvitae-section-title">Contacter Moi</h3>
 						<p>Please feel fee to leave a message to me. I would love to hear from you anytime. Also you can call me or push me a message to my social networks. <br>Thank you <br>Regards -</p>
 						<img src="assets/img/sign.png" alt="Signature">
 					</div>
