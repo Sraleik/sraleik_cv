@@ -33,7 +33,7 @@
 			<nav class="cvitae-main-nav scroll">
 				<ul>
 					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#skills">Compétence</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#skills">Compétences</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="cvitae-home waves-effect"><a href="#home">Nicolas Rotier</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
@@ -53,7 +53,7 @@
 				<ul>
 					<li class="waves-effect waves-cvitae"><a href="#home">Home</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#skills">Compétence</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#skills">Compétences</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
@@ -106,56 +106,90 @@
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Compétence</h3>
+						<h3 class="cvitae-section-title">Compétences</h3>
 						<ul class="hi-lights">
-							<li>Application Development</li>
-							<li>Service-Oriented Architecture</li>
-							<li>Enterprise Implementations </li>
-							<li>Software Development Lifecycle</li>
+							<li>Développement d'applications web</li>
+							<li>Déploiement d'applications web</li>
+							<li>Construction d'environnements d'applications</li>
 						</ul>
 					</div>
 					<div class="content-right">
 						<div class="progress-bar-container">
-							<div class="progress">
-								<h3 class="progress-title">WordPress</h3>
-								<div class="progress-bar" data-progress="85">
+						<div class="progress">
+								<h3 class="progress-title">GNU/Linux</h3>
+								<div class="progress-bar" data-progress="91">
 									<span class="bar"></span>
-									<span class="text">85</span>
+									<span class="text">91</span>
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">HTML / CSS</h3>
-								<div class="progress-bar" data-progress="72">
+								<h3 class="progress-title">Ruby&nbsp;on&nbsp;Rail</h3>
+								<div class="progress-bar" data-progress="80">
 									<span class="bar"></span>
-									<span class="text">72</span>
+									<span class="text">80</span>
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">JAVASCRIPT</h3>
-								<div class="progress-bar" data-progress="65">
+								<h3 class="progress-title">Ruby</h3>
+								<div class="progress-bar" data-progress="75">
 									<span class="bar"></span>
-									<span class="text">65</span>
+									<span class="text">75</span>
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">PHP7</h3>
-								<div class="progress-bar" data-progress="69">
+								<h3 class="progress-title">Git & Gitlab</h3>
+								<div class="progress-bar" data-progress="82">
 									<span class="bar"></span>
-									<span class="text">69</span>
+									<span class="text">82</span>
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">jQuery</h3>
+								<h3 class="progress-title">Docker</h3>
 								<div class="progress-bar" data-progress="78">
 									<span class="bar"></span>
 									<span class="text">78</span>
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">Laravel</h3>
-								<div class="progress-bar" data-progress="75">
+								<h3 class="progress-title">Rancher</h3>
+								<div class="progress-bar" data-progress="53">
 									<span class="bar"></span>
-									<span class="text">75</span>
+									<span class="text">53</span>
+								</div>
+							</div>
+							<div class="progress">
+								<h3 class="progress-title">HTML / CSS</h3>
+								<div class="progress-bar" data-progress="74">
+									<span class="bar"></span>
+									<span class="text">74</span>
+								</div>
+							</div>
+							<div class="progress">
+								<h3 class="progress-title">JAVASCRIPT / Jquery</h3>
+								<div class="progress-bar" data-progress="69">
+									<span class="bar"></span>
+									<span class="text">69</span>
+								</div>
+							</div>
+							<div class="progress">
+								<h3 class="progress-title">WordPress</h3>
+								<div class="progress-bar" data-progress="63">
+									<span class="bar"></span>
+									<span class="text">63</span>
+								</div>
+							</div>
+							<div class="progress">
+								<h3 class="progress-title">PHP</h3>
+								<div class="progress-bar" data-progress="66">
+									<span class="bar"></span>
+									<span class="text">66</span>
+								</div>
+							</div>
+							<div class="progress">
+								<h3 class="progress-title">Google-fu</h3>
+								<div class="progress-bar" data-progress="94">
+									<span class="bar"></span>
+									<span class="text">94</span>
 								</div>
 							</div>
 						</div>
@@ -163,7 +197,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- CVitae Compétence -->
+		<!-- CVitae Compétences -->
 
 		<div id="achievement" class="cvitae-section cvitae-achievement">
 			<div class="cvitae-container">
