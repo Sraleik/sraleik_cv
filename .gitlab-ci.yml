@@ -12,15 +12,13 @@ variables:
   CONTAINER_CURRENT_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-$CI_BUILD_REF
   CONTAINER_LATEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-latest
 
-before_script:
-  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
-
 manual_build:
   stage: build
   except:
     - recette
     - production
   script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
   when: manual
@@ -30,6 +28,7 @@ recette_build:
   only:
     - recette
   script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
 
@@ -38,6 +37,7 @@ production_build:
   only:
     - production
   script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
 
@@ -47,6 +47,7 @@ release:
     - recette
     - production
   script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
     - docker pull $CONTAINER_CURRENT_IMAGE
     - docker tag $CONTAINER_CURRENT_IMAGE $CONTAINER_LATEST_IMAGE
     - docker push $CONTAINER_LATEST_IMAGE
@@ -54,6 +55,9 @@ release:
 deploy_recette:
   stage: deploy
   image: cdrx/rancher-gitlab-deploy
+  environment:
+    name: recette
+    url: https://cv.sraleik.fr
   only:
     - recette
   script:
