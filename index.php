@@ -108,9 +108,9 @@
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Compétences</h3>
 						<ul class="hi-lights">
-							<li>Développement d'application web</li>
-							<li>Déploiement d'application web</li>
-							<li>Construction d'environement d'application</li>
+							<li>Développement d'applications web</li>
+							<li>Déploiement d'applications web</li>
+							<li>Construction d'environnements d'applications</li>
 						</ul>
 					</div>
 					<div class="content-right">
