@@ -61,4 +61,4 @@ deploy_recette:
   only:
     - recette
   script:
-    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_LATEST_IMAGE --no-finish-upgrade
+    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image registry.gitlab.com/sraleik/sraleik_cv:recette-latest --no-finish-upgrade
