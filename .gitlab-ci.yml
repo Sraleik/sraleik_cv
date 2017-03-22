@@ -6,6 +6,7 @@ services:
 stages:
   - build
   - release
+  - deploy
 
 variables:
   CONTAINER_CURRENT_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-$CI_BUILD_REF
@@ -50,3 +51,11 @@ release:
     - docker pull $CONTAINER_CURRENT_IMAGE
     - docker tag $CONTAINER_CURRENT_IMAGE $CONTAINER_LATEST_IMAGE
     - docker push $CONTAINER_LATEST_IMAGE
+
+deploy_recette:
+  stage: deploy
+  image: cdrx/rancher-gitlab-deploy
+  only:
+    - recette
+  script:
+    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_LATEST_IMAGE --no-finish-upgrade
