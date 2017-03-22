@@ -13,7 +13,6 @@ variables:
   CONTAINER_LATEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-latest
 
 before_script:
-  - docker -v
   - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
 
 manual_build:
