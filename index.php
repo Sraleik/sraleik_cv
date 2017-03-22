@@ -81,7 +81,7 @@
 						<div class="pic">
 							<img class="img-responsive" src="assets/img/bio/12.jpg" alt="Photo Id">
 						</div>
-						<p>Développeur junior avec 2 ans d'expérience dans le web. <br /> Principale technologie utlisé : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
+						<p>Développeur junior avec 2 ans d'expérience dans le web. <br /> Principale technologie utlisé : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress, Symfony. </p>
 					</div>
 					<div class="content-right about">
 						<h3 class="cvitae-section-title">Présentation</h3>
