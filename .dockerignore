@@ -1,0 +1,9 @@
+.git/*
+.gitlab-ci
+.gitignore
+composer.phar
+composer.lock
+composer.json
+gulpfile.js
+package.json
+docker_test.sh
