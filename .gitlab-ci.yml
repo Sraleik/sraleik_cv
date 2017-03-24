@@ -73,4 +73,4 @@ deploy_production:
   only:
     - production
   script:
-    - upgrade --environment production --stack sraleik-cv-production --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
+    - upgrade --environment production --stack sraleik-cv --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
