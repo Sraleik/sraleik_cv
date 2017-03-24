@@ -57,19 +57,19 @@ deploy_recette:
   image: cdrx/rancher-gitlab-deploy
   environment:
     name: recette
-    url: https://cv.sraleik.fr
+    url: http://cv.sraleik.fr
   only:
     - recette
   script:
-    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_LATEST_IMAGE --no-finish-upgrade
+    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
 
 deploy_production:
   stage: deploy
   image: cdrx/rancher-gitlab-deploy
   environment:
     name: production
-    url: https://cv.sraleik.fr
+    url: http://nicolas-rotier.com
   only:
     - production
   script:
-    - upgrade --environment production --stack sraleik-cv-production --service apache --new-image $CONTAINER_LATEST_IMAGE --no-finish-upgrade
+    - upgrade --environment production --stack sraleik-cv-production --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
