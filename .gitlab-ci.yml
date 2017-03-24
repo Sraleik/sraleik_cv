@@ -62,3 +62,14 @@ deploy_recette:
     - recette
   script:
     - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_LATEST_IMAGE --no-finish-upgrade
+
+deploy_production:
+  stage: deploy
+  image: cdrx/rancher-gitlab-deploy
+  environment:
+    name: production
+    url: https://cv.sraleik.fr
+  only:
+    - production
+  script:
+    - upgrade --environment production --stack sraleik-cv-production --service apache --new-image $CONTAINER_LATEST_IMAGE --no-finish-upgrade
