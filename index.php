@@ -238,25 +238,25 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Portfolio</h3>
-						<p>Ici sont les sites et les outils que j'ai développer au cour des dernière années. J'ai appris beaucoup de ces projets.</p>
+						<p>Ici sont les sites que j'ai développer au cour des dernière années. J'ai appris beaucoup de ces projets.</p>
 						<p>N'hésitez pas à me posser des questions sur ses divers projets.</p>
 					</div>
 					<div class="content-right">
 						<div id="cvitae-slider" class="mi-slider cvitae-gallery">
 							<ul>
-								<li><a href="#" class="project" data-project-title="Cycloplombier" data-project-image="assets/img/portfolio/cycloplombier.png" data-project-link="http://cycloplombier.com/" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/cycloplombier.png" alt="cycloplombier_accueil"><h4>Cyclo Plombier</h4></a></li>
-								<li><a href="#" class="project" data-project-title="Darwin Tatouage" data-project-image="assets/img/portfolio/darwintatouage.jpg" data-project-link="http://darwintatouage.com/" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/darwintatouage.png" alt="img02"><h4>Darwin Tatouage</h4></a></li>
-								<li><a href="#" class="project" data-project-title="Sing Sing Bis" data-project-image="assets/img/portfolio/singsingbis.jpg" data-project-link="sing-sing-bis.sraleik.fr" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/singsingbis.png" alt="singsingbis_accueil"><h4>Sing Sing Bis</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Cycloplombier" data-project-image="assets/img/portfolio/cycloplombier.png" data-project-link="http://cycloplombier.com/" data-project-detail="Sur ce projet j'ai conçu et déployer le docker permetant le déloiement de l'application (en prod, recette, local).
+								Ainsi que le développement de certaine fonctionalité du site."><img src="assets/img/portfolio/cycloplombier.png" alt="cycloplombier_accueil"><h4>Cyclo Plombier</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Darwin Tatouage" data-project-image="assets/img/portfolio/darwintatouage.png" data-project-link="http://darwintatouage.com/" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/darwintatouage.png" alt="img02"><h4>Darwin Tatouage</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Sing Sing Bis" data-project-image="assets/img/portfolio/singsingbis.png" data-project-link="http://sing-sing-bis.sraleik.fr" data-project-detail="Sing Sing bis est une web radio. Pour laquelle au cour de ma formation Web concepteur. Mon groupe (2 personnes) et moi avons effectuer la refonte complete du site."><img src="assets/img/portfolio/singsingbis.png" alt="singsingbis_accueil"><h4>Sing Sing Bis</h4></a></li>
 							</ul>
 							<ul>
-								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Busineqsdfqss Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>E-commerce Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="Portfolio Website" data-project-image="assets/img/portfolio/3.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/3.jpg" alt="img03"><h4>Portfolio Website</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Docker php_blank</h4></a></li>
+								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>Docker ubuntu_blank/dev</h4></a></li>
 							</ul>
 
 							<nav>
 								<a href="#">Website</a>
-								<a href="#">Outils</a>
+								<!-- <a href="#">Outils</a> -->
 							</nav>
 						</div>
 					</div>
