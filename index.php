@@ -85,9 +85,8 @@
 					<div class="content-right about">
 						<h3 class="cvitae-section-title">Présentation</h3>
 						<p class="info"><span class="field-title">Identité</span> <span class="field-separator">:</span> <span class="field-value">Nicolas Rotier</span></p>
-						<p class="info"><span class="field-title">Address</span> <span class="field-separator">:</span> <span class="field-value">3 rue de Jeanne d'Arc, Nantes</span></p>
+						<p class="info"><span class="field-title">Address</span> <span class="field-separator">:</span> <span class="field-value">Talensac, Nantes</span></p>
 						<p class="info"><span class="field-title">Code&nbsp;Postal</span> <span class="field-separator">:</span> <span class="field-value">44000</span></p>
-						<p class="info"><span class="field-title">Téléphone</span> <span class="field-separator">:</span> <span class="field-value">+33632432990</span></p>
 						<p class="info"><span class="field-title">Email</span> <span class="field-separator">:</span> <span class="field-value">nicolas.rotier@gmail.com</span></p>
 					</div>
 					<div class="links">
