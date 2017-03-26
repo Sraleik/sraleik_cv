@@ -5,7 +5,6 @@
 	<title>Nicolas Rotier - CV</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="favicon.ico"/>
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/catSlider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
