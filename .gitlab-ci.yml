@@ -45,6 +45,7 @@ production_build:
 release:
   stage: release
   only:
+    - recette
     - production
   script:
     - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
@@ -62,8 +63,6 @@ deploy_recette:
     - production
   script:
     - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
-  when:
-    manual
 
 deploy_production:
   stage: deploy
