@@ -238,37 +238,25 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Portfolio</h3>
-						<p>Here are albums of my best works that I did in past several years. I studied, worked &amp; learnt (still learning) from these projects a lot.</p>
-						<p>Please feel free to ask me any questions regarding my works / porfolio.</p>
+						<p>Ici sont les sites et les outils que j'ai développer au cour des dernière années. J'ai appris beaucoup de ces projets.</p>
+						<p>N'hésitez pas à me posser des questions sur ses divers projets.</p>
 					</div>
 					<div class="content-right">
 						<div id="cvitae-slider" class="mi-slider cvitae-gallery">
 							<ul>
-								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Business Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>E-commerce Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="Portfolio Website" data-project-image="assets/img/portfolio/3.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/3.jpg" alt="img03"><h4>Portfolio Website</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Cycloplombier" data-project-image="assets/img/portfolio/cycloplombier.png" data-project-link="http://cycloplombier.com/" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/cycloplombier.png" alt="cycloplombier_accueil"><h4>Cyclo Plombier</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Darwin Tatouage" data-project-image="assets/img/portfolio/darwintatouage.jpg" data-project-link="http://darwintatouage.com/" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/darwintatouage.png" alt="img02"><h4>Darwin Tatouage</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Sing Sing Bis" data-project-image="assets/img/portfolio/singsingbis.jpg" data-project-link="sing-sing-bis.sraleik.fr" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/singsingbis.png" alt="singsingbis_accueil"><h4>Sing Sing Bis</h4></a></li>
 							</ul>
 							<ul>
-								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Business Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>E-commerce Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="Portfolio Website" data-project-image="assets/img/portfolio/3.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/3.jpg" alt="img03"><h4>Portfolio Website</h4></a></li>
-							</ul>
-							<ul>
-								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Business Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>E-commerce Website</h4></a></li>
-								<li><a href="#" class="project" data-project-title="Portfolio Website" data-project-image="assets/img/portfolio/3.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/3.jpg" alt="img03"><h4>Portfolio Website</h4></a></li>
-							</ul>
-							<ul>
-								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Business Website</h4></a></li>
+								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Busineqsdfqss Website</h4></a></li>
 								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>E-commerce Website</h4></a></li>
 								<li><a href="#" class="project" data-project-title="Portfolio Website" data-project-image="assets/img/portfolio/3.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/3.jpg" alt="img03"><h4>Portfolio Website</h4></a></li>
 							</ul>
 
 							<nav>
 								<a href="#">Website</a>
-								<a href="#">Software</a>
-								<a href="#">Game</a>
-								<a href="#">Apps</a>
+								<a href="#">Outils</a>
 							</nav>
 						</div>
 					</div>
@@ -282,28 +270,27 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Expérience</h3>
-						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
-						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
+						<p>Voici mes éxpériences professionelles. C'est dans ces entreprises que j'ai appris,
+						aussi bien techniquement que en communication et en gestion de projets</p>
 					</div>
 					<div class="content-right">
 						<ul class="collapsible" data-collapsible="accordion">
 							<li>
-								<div class="collapsible-header">GOOGLE <span class="degree">as</span> WEB Developer <span class="year">2005 - 2009</span></div>
+								<div class="collapsible-header">Developpeur Front-End <span class="degree">à</span> Atos <span class="year">2016 - Present</span></div>
 								<div class="collapsible-body">
-									<p>Working as Web Developer at GOOGLE. Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
+									<p>Mes missions était les suivantes: <br><br>
+									- Création et modification d’écran (Jsp et Css)<br>
+									- Maintenance évolutive (Javascript/Jquery & Java)</p>
 								</div>
 							</li>
 							<li>
-								<div class="collapsible-header">Facebook <span class="degree">as</span> WEB Support <span class="year">2009 - 20013</span></div>
+								<div class="collapsible-header">Developpeur Full-Stack <span class="degree">à</span> QOS Energy <span class="year">2014 - 2016</span></div>
 								<div class="collapsible-body">
-									<p>Working as Support Manager at Facebook. Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header">Envato <span class="degree">as</span> Support Manager <span class="year">2013 - Present</span></div>
-								<div class="collapsible-body">
-									<p>Working as Support Manager at Envato (Themeforest). Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
-								</div>
+										<p>Mes missions était les suivantes: <br><br>
+										- Création et modification d’écran (html5/css) <br>
+										- Création de driver, permettant de traiter divers fichiers de données (csv, yml, xml, txt) et d’en faire l’importation dans notre BDD <br>
+										- Création d’une application mobile first : <br>&nbsp;&nbsp;&nbsp;* Utilisation de mes compétences de gestion de projet. <br>&nbsp;&nbsp;&nbsp;* En Autonomie sur le développement de cette application (de la récupération du &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;besoin à la mise en production).</p>
+								</div><!--TODO: one day, remove &nbsp, its ugly. But no time right now to play with css :( -->
 							</li>
 						</ul>
 					</div>
@@ -317,27 +304,29 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Formation</h3>
-						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
-						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
+						<p>Voici la liste de mes diplomes passé et obtenu.</p>
 					</div>
 					<div class="content-right">
 						<ul class="collapsible" data-collapsible="accordion">
 							<li>
-								<div class="collapsible-header">Most recent achieved degree, <span class="year">2005</span></div>
+								<div class="collapsible-header">Responsable ingénierie des logiciels (bac+4), <span class="year">2018</span></div>
 								<div class="collapsible-body">
-									<p>Successfully passed PAD’ on year 2005 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
+									<p>Formation effectué en alternance au Cesi de Nantes.</br>Je suis en train de prendre en compétence sur les domaines suivants : </br></br>
+									- Gestion de projets </br>
+									- Développement</p>
 								</div>
 							</li>
 							<li>
-								<div class="collapsible-header">Previously achieved degree, <span class="year">2003</span></div>
+								<div class="collapsible-header">Web Concepteur (bac+2), <span class="year">2016</span></div>
 								<div class="collapsible-body">
-									<p>Successfully passed PAD’ on year 2003 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
+									<p>Formation effectué en alternance au Cesi de Nantes.</br> Où j'ai eu comme tache : </br></br>
+									- Refonte du site web de la web radio Sing-Sing-Bis (st-malo). Chef de projet d’un groupe de trois. Au delà du développement. J’ai eu a organiser le projet, faire les choix technique, repartir les taches ainsi que préparer et organiser la présentation oral de soutenance.</p>
 								</div>
 							</li>
 							<li>
-								<div class="collapsible-header">Previously achieved degree, <span class="year">2001</span></div>
+								<div class="collapsible-header">Baccalauréat STI électronique, <span class="year">2009</span></div>
 								<div class="collapsible-body">
-									<p>Successfully passed PAD’ on year 2001 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
+									<p>Lycée Aristide Briand, Saint-Nazaire</p>
 								</div>
 							</li>
 						</ul>
@@ -438,8 +427,8 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Contacter Moi</h3>
-						<p>Please feel fee to leave a message to me. I would love to hear from you anytime. Also you can call me or push me a message to my social networks. <br>Thank you <br>Regards -</p>
-						<img src="assets/img/sign.png" alt="Signature">
+						<p>N'hésitez pas à me laisser un message <br><br>Cordialement, <br>Nicolas Rotier</p>
+						<!-- <img src="assets/img/sign.png" alt="Signature"> -->
 					</div>
 					<div class="content-right">
 						<form method="post">
