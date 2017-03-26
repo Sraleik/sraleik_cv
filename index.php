@@ -493,9 +493,9 @@
 				<div class="cvitae-container">
 					<ul class="links">
 						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Envoyer ce cv par email"><a href="#"><span class="ti-email"></span>Envoyer ce cv par email</a></li>
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Mon github"><a href="#"><span class="ti-github"></span>Github</a></li>
+						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Mon github"><a href="https://github.com/Sraleik"><span class="ti-github"></span>Github</a></li>
 						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Remonter en haut"><a href="#" data-hover="Goto Top" class="goto-top"><span class="ti-arrow-up"></span>Remonter en haut</a></li>
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="mon linkedin"><a href="#"><span class="ti-linkedin"></span>Profile Linkedin</a></li>
+						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="mon linkedin"><a href="https://www.linkedin.com/in/nicolas-rotier/"><span class="ti-linkedin"></span>Profile Linkedin</a></li>
 					</ul>
 					<!-- <p class="copyright">Themecop  2016</p> -->
 				</div>
