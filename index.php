@@ -34,10 +34,10 @@
 				<ul>
 					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#skills">Compétences</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
-					<li class="cvitae-home waves-effect"><a href="#home">Nicolas Rotier</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
+					<li class="cvitae-home waves-effect"><a href="#home">Nicolas Rotier</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -51,12 +51,12 @@
 			</div>
 			<nav class="cvitae-mobile-nav scroll">
 				<ul>
-					<li class="waves-effect waves-cvitae"><a href="#home">Home</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#home">Accueil</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#skills">Compétences</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -165,7 +165,7 @@
 								</div>
 							</div>
 							<div class="progress">
-								<h3 class="progress-title">JAVASCRIPT / Jquery</h3>
+								<h3 class="progress-title">Javascript / Jquery</h3>
 								<div class="progress-bar" data-progress="69">
 									<span class="bar"></span>
 									<span class="text">69</span>
@@ -199,82 +199,41 @@
 		</div>
 		<!-- CVitae Compétences -->
 
-		<div id="achievement" class="cvitae-section cvitae-achievement">
+		<!-- <div id="clients" class="cvitae-section cvitae-clients">
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Achievement</h3>
-						<p>Visited different countries &amp; met lot of people throughout companies. Earned love, respect &amp; trust. Therefore I got some achievements to share.</p>
+						<h3 class="cvitae-section-title">Top Clients</h3>
+						<p>Visited different countries &amp; met lot of people throughout companies. Earned love, respect &amp; trust. Therefore I got some testimonails too.</p>
 					</div>
 					<div class="content-right">
-						<div class="achievement-container">
+						<div class="clients-container">
 							<div class="item">
-								<p class="achievement-date">7th June, 2016</p>
-								<h4 class="achievement-title">Most Wanted Winner</h4>
-								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
+								<a href="#"><img src="assets/img/clients/1.jpg" alt="Client 1"></a>
 							</div>
 							<div class="item">
-								<p class="achievement-date">7th June, 2016</p>
-								<h4 class="achievement-title">Most Wanted Winner</h4>
-								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
+								<a href="#"><img src="assets/img/clients/2.jpg" alt="Client 2"></a>
 							</div>
 							<div class="item">
-								<p class="achievement-date">7th June, 2016</p>
-								<h4 class="achievement-title">Most Wanted Winner</h4>
-								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
+								<a href="#"><img src="assets/img/clients/3.jpg" alt="Client 3"></a>
 							</div>
 							<div class="item">
-								<p class="achievement-date">7th June, 2016</p>
-								<h4 class="achievement-title">Most Wanted Winner</h4>
-								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
+								<a href="#"><img src="assets/img/clients/4.jpg" alt="Client 4"></a>
 							</div>
 							<div class="item">
-								<p class="achievement-date">7th June, 2016</p>
-								<h4 class="achievement-title">Most Wanted Winner</h4>
-								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
+								<a href="#"><img src="assets/img/clients/5.jpg" alt="Client 5"></a>
+							</div>
+							<div class="item">
+								<a href="#"><img src="assets/img/clients/6.jpg" alt="Client 5"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="parallax"></div>
-		</div>
-		<!-- CVitae Achievement -->
+		</div> -->
+		<!-- CVitae Clients -->
 
-		<div id="education" class="cvitae-section cvitae-education">
-			<div class="cvitae-container">
-				<div class="cvitae-section-content">
-					<div class="content-left">
-						<h3 class="cvitae-section-title">Formation</h3>
-						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
-						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
-					</div>
-					<div class="content-right">
-						<ul class="collapsible" data-collapsible="accordion">
-							<li>
-								<div class="collapsible-header">Most recent achieved degree, <span class="year">2005</span></div>
-								<div class="collapsible-body">
-									<p>Successfully passed PAD’ on year 2005 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header">Previously achieved degree, <span class="year">2003</span></div>
-								<div class="collapsible-body">
-									<p>Successfully passed PAD’ on year 2003 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header">Previously achieved degree, <span class="year">2001</span></div>
-								<div class="collapsible-body">
-									<p>Successfully passed PAD’ on year 2001 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- CVitae Formation -->
 
 		<div id="portfolio" class="cvitae-section cvitae-portfolio">
 			<div class="cvitae-container">
@@ -320,7 +279,78 @@
 		</div>
 		<!-- CVitae Portfolio -->
 
-		<div id="testimonial" class="cvitae-section cvitae-testimonial">
+		<div id="experience" class="cvitae-section cvitae-experience">
+			<div class="cvitae-container">
+				<div class="cvitae-section-content">
+					<div class="content-left">
+						<h3 class="cvitae-section-title">Expérience</h3>
+						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
+						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
+					</div>
+					<div class="content-right">
+						<ul class="collapsible" data-collapsible="accordion">
+							<li>
+								<div class="collapsible-header">GOOGLE <span class="degree">as</span> WEB Developer <span class="year">2005 - 2009</span></div>
+								<div class="collapsible-body">
+									<p>Working as Web Developer at GOOGLE. Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header">Facebook <span class="degree">as</span> WEB Support <span class="year">2009 - 20013</span></div>
+								<div class="collapsible-body">
+									<p>Working as Support Manager at Facebook. Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header">Envato <span class="degree">as</span> Support Manager <span class="year">2013 - Present</span></div>
+								<div class="collapsible-body">
+									<p>Working as Support Manager at Envato (Themeforest). Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CVitae Expérience -->
+
+		<div id="education" class="cvitae-section cvitae-education">
+			<div class="cvitae-container">
+				<div class="cvitae-section-content">
+					<div class="content-left">
+						<h3 class="cvitae-section-title">Formation</h3>
+						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
+						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
+					</div>
+					<div class="content-right">
+						<ul class="collapsible" data-collapsible="accordion">
+							<li>
+								<div class="collapsible-header">Most recent achieved degree, <span class="year">2005</span></div>
+								<div class="collapsible-body">
+									<p>Successfully passed PAD’ on year 2005 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header">Previously achieved degree, <span class="year">2003</span></div>
+								<div class="collapsible-body">
+									<p>Successfully passed PAD’ on year 2003 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header">Previously achieved degree, <span class="year">2001</span></div>
+								<div class="collapsible-body">
+									<p>Successfully passed PAD’ on year 2001 scoring CGPA 4.00 out of 4.00. The study fields were Cpmputer Architecture, Calculus, Fundamental of Physics, Chemistry, Integral Mathematics.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- CVitae Formation -->
+
+
+		<!-- <div id="testimonial" class="cvitae-section cvitae-testimonial">
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
@@ -359,78 +389,51 @@
 				</div>
 			</div>
 			<div class="parallax"></div>
-		</div>
+		</div> -->
 		<!-- CVitae Testimonial -->
 
-		<div id="experience" class="cvitae-section cvitae-experience">
-			<div class="cvitae-container">
-				<div class="cvitae-section-content">
-					<div class="content-left">
-						<h3 class="cvitae-section-title">Expérience</h3>
-						<p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p>
-						<p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
-					</div>
-					<div class="content-right">
-						<ul class="collapsible" data-collapsible="accordion">
-							<li>
-								<div class="collapsible-header">GOOGLE <span class="degree">as</span> WEB Developer <span class="year">2005 - 2009</span></div>
-								<div class="collapsible-body">
-									<p>Working as Web Developer at GOOGLE. Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header">Facebook <span class="degree">as</span> WEB Support <span class="year">2009 - 20013</span></div>
-								<div class="collapsible-body">
-									<p>Working as Support Manager at Facebook. Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
-								</div>
-							</li>
-							<li>
-								<div class="collapsible-header">Envato <span class="degree">as</span> Support Manager <span class="year">2013 - Present</span></div>
-								<div class="collapsible-body">
-									<p>Working as Support Manager at Envato (Themeforest). Leading the support administration and quality controlling of products submited by the global freelance authors.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- CVitae Expérience -->
 
-		<div id="clients" class="cvitae-section cvitae-clients">
+		<!-- <div id="achievement" class="cvitae-section cvitae-achievement">
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Top Clients</h3>
-						<p>Visited different countries &amp; met lot of people throughout companies. Earned love, respect &amp; trust. Therefore I got some testimonails too.</p>
+						<h3 class="cvitae-section-title">Achievement</h3>
+						<p>Visited different countries &amp; met lot of people throughout companies. Earned love, respect &amp; trust. Therefore I got some achievements to share.</p>
 					</div>
 					<div class="content-right">
-						<div class="clients-container">
+						<div class="achievement-container">
 							<div class="item">
-								<a href="#"><img src="assets/img/clients/1.jpg" alt="Client 1"></a>
+								<p class="achievement-date">7th June, 2016</p>
+								<h4 class="achievement-title">Most Wanted Winner</h4>
+								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
 							</div>
 							<div class="item">
-								<a href="#"><img src="assets/img/clients/2.jpg" alt="Client 2"></a>
+								<p class="achievement-date">7th June, 2016</p>
+								<h4 class="achievement-title">Most Wanted Winner</h4>
+								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
 							</div>
 							<div class="item">
-								<a href="#"><img src="assets/img/clients/3.jpg" alt="Client 3"></a>
+								<p class="achievement-date">7th June, 2016</p>
+								<h4 class="achievement-title">Most Wanted Winner</h4>
+								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
 							</div>
 							<div class="item">
-								<a href="#"><img src="assets/img/clients/4.jpg" alt="Client 4"></a>
+								<p class="achievement-date">7th June, 2016</p>
+								<h4 class="achievement-title">Most Wanted Winner</h4>
+								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
 							</div>
 							<div class="item">
-								<a href="#"><img src="assets/img/clients/5.jpg" alt="Client 5"></a>
-							</div>
-							<div class="item">
-								<a href="#"><img src="assets/img/clients/6.jpg" alt="Client 5"></a>
+								<p class="achievement-date">7th June, 2016</p>
+								<h4 class="achievement-title">Most Wanted Winner</h4>
+								<p class="achievement-detail">Have won two bounties in a single javascript event arranged by Envato (codecanyon) competing 40+ international participants.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="parallax"></div>
-		</div>
-		<!-- CVitae Clients -->
+		</div> -->
+		<!-- CVitae Achievement -->
 
 		<div id="contact" class="cvitae-section cvitae-contact footer">
 			<div class="cvitae-container">
@@ -445,7 +448,7 @@
 							<div class="row">
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="your name*">
+										<input type="text" placeholder="nom*">
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -459,13 +462,13 @@
 							<div class="row">
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="phone*">
+										<input type="text" placeholder="téléphone">
 										<span class="underline"></span>
 									</div>
 								</div>
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="website">
+										<input type="text" placeholder="site web">
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -473,11 +476,11 @@
 							<div class="row">
 								<div class="col s12">
 									<div class="form-textarea">
-										<textarea placeholder="your message"></textarea>
+										<textarea placeholder="votre message"></textarea>
 										<span class="underline"></span>
 									</div>
 									<div class="form-submit">
-										<button type="submit" class="waves-effect waves-cvitae">Submit</button>
+										<button type="submit" class="waves-effect waves-cvitae">Envoyer</button>
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -489,13 +492,12 @@
 			<div class="footer-content">
 				<div class="cvitae-container">
 					<ul class="links">
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Email this Resume"><a href="#"><span class="ti-email"></span>Email this Resume</a></li>
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Fork me on Github"><a href="#"><span class="ti-github"></span>Github</a></li>
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Goto Top"><a href="#" data-hover="Goto Top" class="goto-top"><span class="ti-arrow-up"></span>Goto Top</a></li>
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Follow on Twitter"><a href="#"><span class="ti-twitter"></span>Twitter Profile</a></li>
-						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Follow on Facebook"><a href="#"><span class="ti-facebook"></span>Facebook Profile</a></li>
+						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Envoyer ce cv par email"><a href="#"><span class="ti-email"></span>Envoyer ce cv par email</a></li>
+						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Mon github"><a href="#"><span class="ti-github"></span>Github</a></li>
+						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="Remonter en haut"><a href="#" data-hover="Goto Top" class="goto-top"><span class="ti-arrow-up"></span>Remonter en haut</a></li>
+						<li class="tooltipped" data-position="top" data-delay="50" data-tooltip="mon linkedin"><a href="#"><span class="ti-linkedin"></span>Profile Linkedin</a></li>
 					</ul>
-					<p class="copyright">Themecop  2016</p>
+					<!-- <p class="copyright">Themecop  2016</p> -->
 				</div>
 			</div>
 		</div>
