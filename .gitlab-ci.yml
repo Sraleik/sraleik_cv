@@ -42,18 +42,7 @@ production_build:
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
 
-recette_release:
-  stage: release
-  except:
-    - production
-  script:
-    - |
-      if [ "$CI_BUILD_REF_NAME" != "master" ]; then
-        echo "Skipping release for non-master branch $CI_BUILD_REF_NAME"
-        exit 0
-      fi
-
-production_release:
+release:
   stage: release
   only:
     - production
