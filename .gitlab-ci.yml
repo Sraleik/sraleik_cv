@@ -59,8 +59,8 @@ deploy_recette:
   environment:
     name: recette
     url: http://cv.sraleik.fr
-  only:
-    - recette
+  except:
+    - production
   script:
     - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
 
@@ -69,7 +69,7 @@ deploy_production:
   image: cdrx/rancher-gitlab-deploy
   environment:
     name: production
-    url: http://nicolas-rotier.com
+    url: https://nicolas-rotier.com
   only:
     - production
   script:
