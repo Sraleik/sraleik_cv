@@ -91,7 +91,7 @@
 						<p class="info"><span class="field-title">Email</span> <span class="field-separator">:</span> <span class="field-value">nicolas.rotier@gmail.com</span></p>
 					</div>
 					<div class="links">
-						<a download="dummy-resume.txt" onclick="Materialize.toast('Cv Téléchargé Avec Succes', 4000, 'rounded')" href="dummy-resume.txt" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Télécharger ce Cv"><span class="ti-download"></span>Télécharger le Cv</a>
+						<a download="nicolas_rotier_cv.pdf" onclick="Materialize.toast('Cv Téléchargé Avec Succes', 4000, 'rounded')" href="nicolas_rotier_cv.pdf" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Télécharger ce Cv"><span class="ti-download"></span>Télécharger le Cv</a>
 						<a href="mailto:nicolas.rotier@gmail.com" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Envoyer un email"><span class="ti-email"></span>Envoyer un email</a>
 						<a href="https://github.com/Sraleik" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Me suivre sur Github"><span class="ti-github"></span>Github</a>
 						<a href="https://www.linkedin.com/in/nicolas-rotier/" class="tooltipped" data-position="left" data-delay="50" data-tooltip="me suivre sur LinkedIn"><span class="ti-linkedin"></span>Profile LinkedIn</a>
