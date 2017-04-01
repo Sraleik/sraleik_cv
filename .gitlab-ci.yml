@@ -70,6 +70,7 @@ production_build:
     - production
   script:
     - rm robot.txt
+    - sed -i "s/google_analytic.js/google_analytics.js/g" index.php
     - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
