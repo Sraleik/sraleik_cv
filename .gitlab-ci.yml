@@ -33,7 +33,6 @@ manual_release:
   script:
     - echo "Skipping release for non-prod/recette branch $CI_BUILD_REF_NAME"
     - exit 0
-  when: manual
 
 manual_deploy:
   stage: deploy
@@ -46,7 +45,6 @@ manual_deploy:
     - production
   script:
     - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE
-  when: manual
 
 ####### RECETTE
 
