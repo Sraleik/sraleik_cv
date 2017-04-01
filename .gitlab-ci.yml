@@ -24,6 +24,7 @@ manual_build:
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
   when: manual
+  allow_failure: false
 
 manual_release:
   stage: release
@@ -34,6 +35,7 @@ manual_release:
     - echo "Skipping release for non-prod/recette branch $CI_BUILD_REF_NAME"
     - exit 0
   when: manual
+  allow_failure: false
 
 manual_deploy:
   stage: deploy
