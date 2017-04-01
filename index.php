@@ -78,7 +78,7 @@
 				<div class="cvitae-section-content">
 					<div class="content-left short-bio">
 						<div class="pic">
-							<img class="img-responsive" src="assets/img/bio/12.jpg" alt="Photo Id">
+							<img class="img-responsive" src="assets/img/bio/nicolas_rotier_paris.jpg" alt="Photo Id">
 						</div>
 						<p>Développeur junior avec 2 ans d'expérience. Je suis passionné de développement web. Je recherche actuellement une alternance d’un an et demi sur Nantes dans une entreprise dynamique. Je suis curieux, motivé et en veille constante.<br /><br /> Principales technologies utlisées : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
 					</div>
@@ -249,10 +249,10 @@
 								<li><a href="#" class="project" data-project-title="Darwin Tatouage" data-project-image="assets/img/portfolio/darwintatouage.png" data-project-link="http://darwintatouage.com/" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/darwintatouage.png" alt="img02"><h4>Darwin Tatouage</h4></a></li>
 								<li><a href="#" class="project" data-project-title="Sing Sing Bis" data-project-image="assets/img/portfolio/singsingbis.png" data-project-link="http://sing-sing-bis.sraleik.fr" data-project-detail="Sing Sing bis est une web radio. Pour laquelle au cour de ma formation Web concepteur. Mon groupe (2 personnes) et moi avons effectuer la refonte complete du site."><img src="assets/img/portfolio/singsingbis.png" alt="singsingbis_accueil"><h4>Sing Sing Bis</h4></a></li>
 							</ul>
-							<ul>
+							<!-- <ul>
 								<li><a href="#" class="project" data-project-title="Business Website" data-project-image="assets/img/portfolio/1.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/1.jpg" alt="img01"><h4>Docker php_blank</h4></a></li>
 								<li><a href="#" class="project" data-project-title="E-commerce Website" data-project-image="assets/img/portfolio/2.jpg" data-project-link="#" data-project-detail="Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words"><img src="assets/img/portfolio/2.jpg" alt="img02"><h4>Docker ubuntu_blank/dev</h4></a></li>
-							</ul>
+							</ul> -->
 
 							<nav>
 								<a href="#">Website</a>
@@ -428,7 +428,6 @@
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Contactez-Moi</h3>
 						<p>N'hésitez pas à me laisser un message <br><br>Cordialement, <br>Nicolas Rotier</p>
-						<!-- <img src="assets/img/sign.png" alt="Signature"> -->
 					</div>
 					<div class="content-right">
 						<form method="post">
@@ -493,7 +492,7 @@
 		<div class="cvitae-portfolio-popup">
 			<div class="portfolio-content">
 				<div class="project-image">
-					<img id="project-image" src="assets/img/portfolio/1.jpg" class="img-responsive" alt="Project Image">
+					<img id="project-image" src="assets/img/portfolio/darwintatouage.png" class="img-responsive" alt="Project Image">
 				</div>
 				<div class="project-title"><h4 id="project-title">Project Title</h4><a id="project-link" target="_blank" href="#">( Live Link )</a></div>
 				<p class="project-detail" id="project-detail">Write a short description (2 lines) about your project (when you did this? for whom you worked for? ) How was the accomplishment etc? Remember, a good practise, you must not write more than 40 - 60 words</p>
