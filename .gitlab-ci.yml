@@ -74,6 +74,16 @@ production_build:
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
 
+production_release:
+  stage: release
+  only:
+    - production
+  script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+    - docker pull $CONTAINER_CURRENT_IMAGE
+    - docker tag $CONTAINER_CURRENT_IMAGE $CONTAINER_LATEST_IMAGE
+    - docker push $CONTAINER_LATEST_IMAGE
+
 production_deploy:
   stage: deploy
   image: cdrx/rancher-gitlab-deploy
@@ -84,16 +94,3 @@ production_deploy:
     - production
   script:
     - upgrade --environment production --stack sraleik-cv --service apache --new-image $CONTAINER_CURRENT_IMAGE
-
-####### COMMON for recette and production
-
-auto_release:
-  stage: release
-  only:
-    - recette
-    - production
-  script:
-    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
-    - docker pull $CONTAINER_CURRENT_IMAGE
-    - docker tag $CONTAINER_CURRENT_IMAGE $CONTAINER_LATEST_IMAGE
-    - docker push $CONTAINER_LATEST_IMAGE
