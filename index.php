@@ -35,8 +35,8 @@
 					<li class="waves-effect waves-cvitae"><a href="#skills">Compétences</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
 					<li class="cvitae-home waves-effect"><a href="#home">Nicolas Rotier</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#experience">Expériences</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#education">Formations</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -54,8 +54,8 @@
 					<li class="waves-effect waves-cvitae"><a href="#about">Présentation</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#skills">Compétences</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#portfolio">Portfolio</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#experience">Expérience</a></li>
-					<li class="waves-effect waves-cvitae"><a href="#education">Formation</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#experience">Expériences</a></li>
+					<li class="waves-effect waves-cvitae"><a href="#education">Formations</a></li>
 					<li class="waves-effect waves-cvitae"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -80,7 +80,7 @@
 						<div class="pic">
 							<img class="img-responsive" src="assets/img/bio/12.jpg" alt="Photo Id">
 						</div>
-						<p>Développeur junior avec 2 ans d'expérience. Je suis passionné de développement web. Je recherche actuellement une alternance d’un an et demi sur Nantes dans une entreprise dynamique. Je suis curieux, motivé et en veille constante.<br /><br /> Principale technologie utlisée : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
+						<p>Développeur junior avec 2 ans d'expérience. Je suis passionné de développement web. Je recherche actuellement une alternance d’un an et demi sur Nantes dans une entreprise dynamique. Je suis curieux, motivé et en veille constante.<br /><br /> Principales technologies utlisées : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
 					</div>
 					<div class="content-right about">
 						<h3 class="cvitae-section-title">Présentation</h3>
@@ -238,8 +238,8 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Portfolio</h3>
-						<p>Ici sont les sites que j'ai développer au cour des dernière années. J'ai appris beaucoup de ces projets.</p>
-						<p>N'hésitez pas à me posser des questions sur ses divers projets.</p>
+						<p>Ici sont les sites que j'ai développés au cours des dernière années. J'ai appris beaucoup de ces projets.</p>
+						<p>N'hésitez pas à me poser des questions sur ces divers projets.</p>
 					</div>
 					<div class="content-right">
 						<div id="cvitae-slider" class="mi-slider cvitae-gallery">
@@ -269,8 +269,8 @@
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Expérience</h3>
-						<p>Voici mes éxpériences professionelles. C'est dans ces entreprises que j'ai appris,
+						<h3 class="cvitae-section-title">Expériences</h3>
+						<p>Voici mes expériences professionelles. C'est dans ces entreprises que j'ai appris,
 						aussi bien techniquement que en communication et en gestion de projets</p>
 					</div>
 					<div class="content-right">
@@ -303,8 +303,8 @@
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Formation</h3>
-						<p>Voici la liste de mes diplomes passé et obtenu.</p>
+						<h3 class="cvitae-section-title">Formations</h3>
+						<p>Voici la liste de mes diplômes passés et obtenus.</p>
 					</div>
 					<div class="content-right">
 						<ul class="collapsible" data-collapsible="accordion">
@@ -426,7 +426,7 @@
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
 					<div class="content-left">
-						<h3 class="cvitae-section-title">Contacter Moi</h3>
+						<h3 class="cvitae-section-title">Contactez-Moi</h3>
 						<p>N'hésitez pas à me laisser un message <br><br>Cordialement, <br>Nicolas Rotier</p>
 						<!-- <img src="assets/img/sign.png" alt="Signature"> -->
 					</div>
