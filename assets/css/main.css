@@ -362,7 +362,7 @@ a:focus {
 }
 
 .slider .slider-overlay {
-	background-image: url('../img/slider/12-background.jpg');
+	background-image: url('../img/slider/background.jpg');
 	background-position: center center;
 	background-size: cover;
 	height: 100%;
