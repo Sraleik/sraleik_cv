@@ -26,17 +26,6 @@ manual_build:
   when: manual
   allow_failure: false
 
-manual_release:
-  stage: release
-  except:
-    - recette
-    - production
-  script:
-    - echo "Skipping release for non-prod/recette branch $CI_BUILD_REF_NAME"
-    - exit 0
-  when: manual
-  allow_failure: false
-
 manual_deploy:
   stage: deploy
   image: cdrx/rancher-gitlab-deploy
@@ -49,6 +38,7 @@ manual_deploy:
   script:
     - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE
   when: manual
+  allow_failure: false
 
 ####### RECETTE
 
