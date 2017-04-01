@@ -12,6 +12,8 @@ variables:
   CONTAINER_CURRENT_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-$CI_BUILD_REF
   CONTAINER_LATEST_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-latest
 
+####### MANUAL
+
 manual_build:
   stage: build
   except:
@@ -22,6 +24,23 @@ manual_build:
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
   when: manual
+  allow_failure: false
+
+manual_deploy:
+  stage: deploy
+  image: cdrx/rancher-gitlab-deploy
+  environment:
+    name: recette
+    url: http://cv.sraleik.fr
+  except:
+    - recette
+    - production
+  script:
+    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE
+  when: manual
+  allow_failure: false
+
+####### RECETTE
 
 recette_build:
   stage: build
@@ -31,6 +50,19 @@ recette_build:
     - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
+
+recette_deploy:
+  stage: deploy
+  image: cdrx/rancher-gitlab-deploy
+  environment:
+    name: recette
+    url: http://cv.sraleik.fr
+  only:
+    - recette
+  script:
+    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE
+
+####### PRODUCTION
 
 production_build:
   stage: build
@@ -42,7 +74,20 @@ production_build:
     - docker build -t $CONTAINER_CURRENT_IMAGE .
     - docker push $CONTAINER_CURRENT_IMAGE
 
-release:
+production_deploy:
+  stage: deploy
+  image: cdrx/rancher-gitlab-deploy
+  environment:
+    name: production
+    url: http://nicolas-rotier.com
+  only:
+    - production
+  script:
+    - upgrade --environment production --stack sraleik-cv --service apache --new-image $CONTAINER_CURRENT_IMAGE
+
+####### COMMON for recette and production
+
+auto_release:
   stage: release
   only:
     - recette
@@ -52,25 +97,3 @@ release:
     - docker pull $CONTAINER_CURRENT_IMAGE
     - docker tag $CONTAINER_CURRENT_IMAGE $CONTAINER_LATEST_IMAGE
     - docker push $CONTAINER_LATEST_IMAGE
-
-deploy_recette:
-  stage: deploy
-  image: cdrx/rancher-gitlab-deploy
-  environment:
-    name: recette
-    url: http://cv.sraleik.fr
-  only:
-    - recette
-  script:
-    - upgrade --environment production --stack sraleik-cv-recette --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
-
-deploy_production:
-  stage: deploy
-  image: cdrx/rancher-gitlab-deploy
-  environment:
-    name: production
-    url: http://nicolas-rotier.com
-  only:
-    - production
-  script:
-    - upgrade --environment production --stack sraleik-cv --service apache --new-image $CONTAINER_CURRENT_IMAGE --no-finish-upgrade
