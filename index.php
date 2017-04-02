@@ -434,13 +434,13 @@
 							<div class="row">
 								<div class="col s6">
 									<div class="form-input">
-										<input id="name" type="text" placeholder="nom*">
+										<input name="name" type="text" placeholder="nom*">
 										<span class="underline"></span>
 									</div>
 								</div>
 								<div class="col s6">
 									<div class="form-input">
-										<input id="email" type="text" placeholder="email*">
+										<input name="email" type="text" placeholder="email*">
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -448,13 +448,13 @@
 							<div class="row">
 								<div class="col s6">
 									<div class="form-input">
-										<input id="phone" type="text" placeholder="téléphone">
+										<input name="phone" type="text" placeholder="téléphone">
 										<span class="underline"></span>
 									</div>
 								</div>
 								<div class="col s6">
 									<div class="form-input">
-										<input id="website" type="text" placeholder="site web">
+										<input name="website" type="text" placeholder="site web">
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -462,7 +462,7 @@
 							<div class="row">
 								<div class="col s12">
 									<div class="form-textarea">
-										<textarea id="message" placeholder="votre message"></textarea>
+										<textarea name="message" placeholder="votre message"></textarea>
 										<span class="underline"></span>
 									</div>
 									<div class="form-submit">
