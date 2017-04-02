@@ -80,7 +80,6 @@
 						<div class="pic">
 							<img class="img-responsive" src="assets/img/bio/nicolas_rotier_paris.jpg" alt="Photo Id">
 						</div>
-						<p><?php echo("test") ?></p>
 						<p>Développeur junior avec 2 ans d'expérience. Je suis passionné de développement web. Je recherche actuellement une alternance d’un an et demi sur Nantes dans une entreprise dynamique. Je suis curieux, motivé et en veille constante.<br /><br /> Principales technologies utlisées : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
 					</div>
 					<div class="content-right about">
@@ -431,17 +430,17 @@
 						<p>N'hésitez pas à me laisser un message <br><br>Cordialement, <br>Nicolas Rotier</p>
 					</div>
 					<div class="content-right">
-						<form method="post">
+						<form action="send.php" method="post">
 							<div class="row">
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="nom*">
+										<input id="name" type="text" placeholder="nom*">
 										<span class="underline"></span>
 									</div>
 								</div>
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="email*">
+										<input id="email" type="text" placeholder="email*">
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -449,13 +448,13 @@
 							<div class="row">
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="téléphone">
+										<input id="phone" type="text" placeholder="téléphone">
 										<span class="underline"></span>
 									</div>
 								</div>
 								<div class="col s6">
 									<div class="form-input">
-										<input type="text" placeholder="site web">
+										<input id="website" type="text" placeholder="site web">
 										<span class="underline"></span>
 									</div>
 								</div>
@@ -463,7 +462,7 @@
 							<div class="row">
 								<div class="col s12">
 									<div class="form-textarea">
-										<textarea placeholder="votre message"></textarea>
+										<textarea id="message" placeholder="votre message"></textarea>
 										<span class="underline"></span>
 									</div>
 									<div class="form-submit">
