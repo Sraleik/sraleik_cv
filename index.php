@@ -238,7 +238,7 @@
 				<div class="cvitae-section-content">
 					<div class="content-left">
 						<h3 class="cvitae-section-title">Portfolio</h3>
-						<p>Ici sont les sites que j'ai développés au cours des dernière années. J'ai appris beaucoup de ces projets.</p>
+						<p>Ici sont les sites que j'ai développés au cours des dernières années. J'ai appris beaucoup de ces projets.</p>
 						<p>N'hésitez pas à me poser des questions sur ces divers projets.</p>
 					</div>
 					<div class="content-right">
