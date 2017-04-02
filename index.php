@@ -423,11 +423,20 @@
 		<!-- CVitae Achievement -->
 
 		<div id="contact" class="cvitae-section cvitae-contact footer">
+
 			<div class="cvitae-container">
 				<div class="cvitae-section-content">
-					<div class="content-left">
+					<div class="content-left contact-custom">
 						<h3 class="cvitae-section-title">Contactez-Moi</h3>
 						<p>N'hésitez pas à me laisser un message <br><br>Cordialement, <br>Nicolas Rotier</p>
+						<?php
+			    		if (empty($_GET['sent'])){
+
+			    		}
+			    		else {
+			      		echo "<div class="."email-confirm".">"."Merci pour votre message ! Je vous répondrai dès que possible.</div>";
+			    		}
+		   			?>
 					</div>
 					<div class="content-right">
 						<form action="send.php" method="post">

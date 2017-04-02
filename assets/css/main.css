@@ -256,6 +256,17 @@ a:focus {
 	outline: none;
 }
 
+.contact-custom{
+	position:relative;
+}
+
+.email-confirm{
+    position: absolute;
+    bottom: 35px;
+    padding-right: 15px;
+    font-size: 18px;
+    color: #feb834;
+}
 
 /*
  * --------------------------------------
