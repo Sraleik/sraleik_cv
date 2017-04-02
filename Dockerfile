@@ -1,18 +1,22 @@
-FROM httpd:2.4.25-alpine
+FROM k0st/alpine-apache-php
 MAINTAINER Sraleik <sraleik@gmail.com>
 
-RUN rm -rf /usr/local/apache2/htdocs/
-COPY . /usr/local/apache2/htdocs/
+#RUN apk add --update curl \
+#    apache2 && \
+#    rm -rf /var/cache/apk/*
 
-COPY docker_test.sh /test/docker_test.sh
+#RUN rm -rf /usr/local/apache2/htdocs/
+COPY . /app
+COPY scripts/run.sh /scripts/run.sh
 
-RUN sed -i "s/AllowOverride None/AllowOverride All/g" /usr/local/apache2/conf/httpd.conf && \
-    sed -i "s/#ServerName www.example.com:80/ServerName nicolas-rotier.com/g" /usr/local/apache2/conf/httpd.conf && \
-    echo "AccessFileName .htaccess" >> /usr/local/apache2/conf/httpd.conf
+#COPY docker_test.sh /test/docker_test.sh
 
+#RUN sed -i "s/AllowOverride None/AllowOverride All/g" /usr/local/apache2/conf/httpd.conf && \
+RUN  sed -i "s/#ServerName www.example.com:80/ServerName nicolas-rotier.com/g" /etc/apache2/httpd.conf
+#    echo "AccessFileName .htaccess" >> /usr/local/apache2/conf/httpd.conf
 
-EXPOSE 80
+#EXPOSE 80
 
-ENTRYPOINT ["bash"]
+#ENTRYPOINT ["bash"]
 
-CMD ["httpd-foreground"]
+#CMD ["httpd" "-D" "FOREGROUND"]

@@ -80,6 +80,7 @@
 						<div class="pic">
 							<img class="img-responsive" src="assets/img/bio/nicolas_rotier_paris.jpg" alt="Photo Id">
 						</div>
+						<p><?php echo("test") ?></p>
 						<p>Développeur junior avec 2 ans d'expérience. Je suis passionné de développement web. Je recherche actuellement une alternance d’un an et demi sur Nantes dans une entreprise dynamique. Je suis curieux, motivé et en veille constante.<br /><br /> Principales technologies utlisées : Ruby on Rails, Git, Docker, Rancher, PHP, Wordpress. </p>
 					</div>
 					<div class="content-right about">
